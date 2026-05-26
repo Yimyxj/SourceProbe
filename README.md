@@ -225,21 +225,3 @@ classification report
 For multiclass experiments, AUROC is computed with one-vs-rest macro averaging.
 
 For one-vs-all experiments, AUROC is computed for the target label against `other`.
-
-## 8. Logs
-
-Logs are saved under:
-
-```text
-$OUTPUT_ROOT/logs/
-```
-
-Examples:
-
-```bash
-tail -f "$OUTPUT_ROOT/logs/multiclass_hidden_probe_Arxiv_include_human_true.log"
-tail -f "$OUTPUT_ROOT/logs/one_vs_all_hidden_probe_Arxiv_gpt-3.5-turbo.log"
-```
-
-python run_experiment.py
-```
