@@ -1,7 +1,5 @@
 # SourceProbe
 
-This document describes how to run **SourceProbe**, i.e. the Qwen3-based `hidden_probe` method, in a standalone folder without relying on the `ai_source_attribution` package name.
-
 The commands below assume that the uploaded folder contains the required Python files directly in the same directory:
 
 ```text
